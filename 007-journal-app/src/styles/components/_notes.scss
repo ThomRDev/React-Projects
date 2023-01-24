@@ -1,0 +1,71 @@
+.notes__main-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.notes__appbar{
+  background-color: $primary;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  justify-content: space-between;
+  color: white;
+  button{
+    margin: 0;
+  }
+}
+
+.notes__content{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex:1;
+}
+.notes__textarea,
+.notes__title-input{
+  border: none;
+  &:focus{
+    outline: none;
+  }
+}
+.notes__title-input{
+  font-size: 25px;
+  color: $dark-grey;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.notes__textarea{
+  border: 1px solid #ccc;
+  color: $dark-grey;
+  font-size: 20px;
+  padding: 10px;
+  resize: none;
+  flex: 1 1 auto;
+  border-radius: 5px;
+  &::-webkit-scrollbar{
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: rgba(136, 136, 136, 0.658);
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(85, 85, 85, 0.466);
+    transition: all 0.3s;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: rgba(85, 85, 85, 0.658);
+  }
+}
+.notes__img{
+  margin-top: 1em;
+  box-shadow: 5px 5px $dark-grey;
+  height: 150px;
+  align-self: flex-start;
+  img{
+    height: 100%;
+    width: auto;
+  }
+}

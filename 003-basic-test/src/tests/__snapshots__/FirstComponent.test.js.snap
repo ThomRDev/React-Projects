@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\003-basic-test\\src\\tests\\FirstComponent.test.js file Must return component title => I'm a title - with enzyme 1`] = `
+<Fragment>
+  <h1>
+    I'm a title
+  </h1>
+  <h2>
+     
+    I'm a subtitle
+     
+  </h2>
+</Fragment>
+`;

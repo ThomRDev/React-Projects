@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in GifApp.test.tsx file Must render component <GifApp /> correctly 1`] = `
+<div>
+  <styled.h1
+    className="l-container"
+    style={
+      Object {
+        "color": "#ccc",
+      }
+    }
+  >
+    GifApp
+  </styled.h1>
+  <AddCategory
+    setValues={[Function]}
+  />
+  <div
+    className="l-container"
+  >
+    <GiftGrid
+      key=""
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Tests in GifApp.test.tsx file Must render component <GifApp /> correctly with params 1`] = `
+<div>
+  <styled.h1
+    className="l-container"
+    style={
+      Object {
+        "color": "#ccc",
+      }
+    }
+  >
+    GifApp
+  </styled.h1>
+  <AddCategory
+    setValues={[Function]}
+  />
+  <div
+    className="l-container"
+  >
+    <GiftGrid
+      key="the beatles"
+      value="the beatles"
+    />
+    <GiftGrid
+      key="frank sinatra"
+      value="frank sinatra"
+    />
+  </div>
+</div>
+`;

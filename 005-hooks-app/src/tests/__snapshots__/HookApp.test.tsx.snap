@@ -1,0 +1,834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\005-hooks-app\\src\\tests\\HookApp.test.tsx component Create Snapshot 1`] = `
+Array [
+  <header
+    className="main-header"
+  >
+    <div
+      className="main-header-content l-container"
+    >
+      <h1
+        className="main-header__title"
+      >
+         Hooks app 
+      </h1>
+    </div>
+  </header>,
+  <main
+    className="main-container"
+  >
+    <div
+      className="main-content l-container"
+    >
+      <section>
+        <h1>
+          Select useState
+        </h1>
+        <div>
+          <select
+            name="PE"
+            onChange={[Function]}
+          >
+            <option
+              value="PE"
+            >
+              Peru
+            </option>
+            <option
+              value="CO"
+            >
+              Colombia
+            </option>
+          </select>
+          <h1>
+            PE
+          </h1>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Select useState - Context
+        </h1>
+        <h1>
+          CA
+        </h1>
+        <select
+          name="CA"
+          onChange={[Function]}
+        >
+          <option
+            value="CA"
+          >
+            Canada
+          </option>
+          <option
+            value="CO"
+          >
+            Colombia
+          </option>
+        </select>
+        <p>
+          Loading ...
+        </p>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          useState - Context - memo
+        </h1>
+        <div>
+          <button
+            onClick={[Function]}
+          >
+            dark
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          useState - Context
+        </h1>
+        <div>
+          <button
+            onClick={[Function]}
+          >
+            dark
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          useState
+        </h1>
+        <div
+          className="d-flex align-items-center gap-5"
+        >
+          <section>
+            <h2>
+              Counter-1 : 
+              0
+            </h2>
+            <div
+              className="d-flex align-items-center gap-2"
+            >
+              <button
+                className="btn btn-primary d-grid fs-5"
+                data-action="increment"
+                data-item="counter1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "placeItems": "center",
+                  }
+                }
+              >
+                +1
+              </button>
+              <button
+                className="btn btn-danger d-grid fs-5"
+                data-action="decrement"
+                data-item="counter1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "placeItems": "center",
+                  }
+                }
+              >
+                -1
+              </button>
+              <button
+                className="btn btn-secondary d-grid fs-5"
+                data-action="reset"
+                data-item="counter1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "placeItems": "center",
+                  }
+                }
+              >
+                Reset
+              </button>
+            </div>
+          </section>
+          <section>
+            <h2>
+              Counter-2 : 
+              0
+            </h2>
+            <div
+              className="d-flex align-items-center gap-2"
+            >
+              <button
+                className="btn btn-primary d-grid fs-5"
+                data-action="increment"
+                data-item="counter2"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "placeItems": "center",
+                  }
+                }
+              >
+                +1
+              </button>
+              <button
+                className="btn btn-danger d-grid fs-5"
+                data-action="decrement"
+                data-item="counter2"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "placeItems": "center",
+                  }
+                }
+              >
+                -1
+              </button>
+              <button
+                className="btn btn-secondary d-grid fs-5"
+                data-action="reset"
+                data-item="counter2"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "placeItems": "center",
+                  }
+                }
+              >
+                Reset
+              </button>
+            </div>
+          </section>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          useState With Custom Hook
+        </h1>
+        <h2>
+          Counter 
+          0
+        </h2>
+        <div
+          className="d-flex align-items-center gap-2"
+        >
+          <button
+            className="btn btn-primary d-grid fs-5"
+            data-action="increment"
+            onClick={[Function]}
+            style={
+              Object {
+                "placeItems": "center",
+              }
+            }
+          >
+            +1
+          </button>
+          <button
+            className="btn btn-danger d-grid fs-5"
+            data-action="decrement"
+            onClick={[Function]}
+            style={
+              Object {
+                "placeItems": "center",
+              }
+            }
+          >
+            -1
+          </button>
+          <button
+            className="btn btn-secondary d-grid fs-5"
+            data-action="reset"
+            onClick={[Function]}
+            style={
+              Object {
+                "placeItems": "center",
+              }
+            }
+          >
+            Reset
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          useEffect with useState - BASIC
+        </h1>
+        <div>
+          <button
+            className="btn btn-danger"
+            onClick={[Function]}
+          >
+            Hide
+          </button>
+          <div>
+            <h1>
+              Counter 
+              <span>
+                0
+              </span>
+            </h1>
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              +1
+            </button>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Geolocation with useEffect
+        </h1>
+        <div>
+          <p>
+            Loading ...
+          </p>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          MouseOver useEffect
+        </h1>
+        <div>
+          <button
+            className="btn btn-danger"
+            onClick={[Function]}
+          >
+            Hide
+          </button>
+          <div
+            style={
+              Object {
+                "backgroundColor": "tomato",
+                "marginTop": "1em",
+                "minHeight": "30vh",
+                "width": "100%",
+              }
+            }
+          />
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Resize useEffect
+        </h1>
+        <div>
+          <h1>
+            1024
+          </h1>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Position useEffect
+        </h1>
+        <div
+          style={
+            Object {
+              "border": "1px solid #ccc",
+              "height": "max-content",
+              "padding": "1em",
+              "width": "100%",
+            }
+          }
+        >
+          <h1>
+            X 
+            <span>
+              0
+            </span>
+          </h1>
+          <h1>
+            Y 
+            <span>
+              0
+            </span>
+          </h1>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Simple Form
+        </h1>
+        <div>
+          <div>
+            <ul>
+              <li>
+                <span>
+                  username :
+                </span>
+                 
+                <span>
+                  ""
+                </span>
+              </li>
+              <li>
+                <span>
+                  email :
+                </span>
+                 
+                <span>
+                  ""
+                </span>
+              </li>
+              <li>
+                <span>
+                  password :
+                </span>
+                 
+                <span>
+                  ""
+                </span>
+              </li>
+            </ul>
+          </div>
+          <form
+            onSubmit={[Function]}
+          >
+            <div
+              className="input-group m-1"
+            >
+              <div
+                className="input-group-append"
+              >
+                <span
+                  className="input-group-text"
+                >
+                  Password
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="form-control"
+                name="password"
+                onChange={[Function]}
+                type="password"
+              />
+            </div>
+            <div
+              className="input-group m-1"
+            >
+              <div
+                className="input-group-append"
+              >
+                <span
+                  className="input-group-text"
+                >
+                  Email
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="form-control"
+                name="email"
+                onChange={[Function]}
+                type="email"
+              />
+            </div>
+            <div
+              className="input-group m-1"
+            >
+              <div
+                className="input-group-append"
+              >
+                <span
+                  className="input-group-text"
+                >
+                  Username
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="form-control"
+                name="username"
+                onChange={[Function]}
+                type="text"
+              />
+            </div>
+          </form>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Quotes
+        </h1>
+        <div>
+          <div
+            className="alert alert-info text-center"
+          >
+            loading ... 
+          </div>
+          <button
+            className="btn btn-primary disabled"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Cambiar
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          FocusScreen
+        </h1>
+        <div>
+          <input
+            autoComplete="off"
+            className="form-control"
+            type="text"
+          />
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Select
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <div>
+          <h1>
+            ToggleQuotes
+          </h1>
+          <button
+            className="btn btn-secondary"
+            onClick={[Function]}
+          >
+            Ocultar
+          </button>
+          <div>
+            <div
+              className="alert alert-info text-center"
+            >
+              loading ... 
+            </div>
+            <button
+              className="btn btn-primary disabled"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Cambiar
+            </button>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <div>
+          <h1>
+            Layout Effect
+          </h1>
+          <div
+            className="alert alert-info text-center"
+          >
+            Loading ...
+          </div>
+          <blockquote
+            className="blockquote text-end"
+          >
+            <p
+              className="mb-3 d-flex"
+            >
+              <span />
+            </p>
+            <footer
+              className="blockquote-footer"
+            />
+          </blockquote>
+          <div>
+            <pre>
+              {}
+            </pre>
+          </div>
+          <button
+            className="btn btn-primary "
+            onClick={[Function]}
+          >
+            Cambiar
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          MethodMemo
+        </h1>
+        <div>
+          <p>
+            1
+          </p>
+          <button
+            onClick={[Function]}
+          >
+            +1
+          </button>
+          <div>
+            <p>
+              1
+            </p>
+            <p>
+              Thom
+            </p>
+            <button
+              onClick={[Function]}
+            >
+              +1
+            </button>
+            <h1>
+              Titulo
+            </h1>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Other MethodMemo
+        </h1>
+        <div>
+          <button
+            className="btn btn-outline-primary"
+            onClick={[Function]}
+          >
+            Show/hide 
+            true
+          </button>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "1em",
+              }
+            }
+          >
+             +1 
+          </button>
+          <div>
+            <p>
+              1
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          UseCallback
+        </h1>
+        <div>
+          <p>
+            1
+          </p>
+          <div>
+            <button
+              onClick={[Function]}
+            >
+               +
+              5
+               
+            </button>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Tarea1Memo
+        </h1>
+        <div>
+          <div
+            className="alert alert-info text-center"
+          >
+            loading ... 
+          </div>
+          <button
+            className="btn btn-primary disabled"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Cambiar
+          </button>
+          <button
+            className="btn btn-outline-primary"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "1em",
+              }
+            }
+          >
+            show/hide 
+            true
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Tarea2Memo
+        </h1>
+        <div>
+          <p>
+            Counter 
+            <span>
+               
+              0
+               
+            </span>
+          </p>
+          <button
+            className="btn btn-primary m-2"
+            onClick={[Function]}
+          >
+            + 
+            1
+          </button>
+          <button
+            className="btn btn-primary m-2"
+            onClick={[Function]}
+          >
+            + 
+            2
+          </button>
+          <button
+            className="btn btn-primary m-2"
+            onClick={[Function]}
+          >
+            + 
+            3
+          </button>
+          <button
+            className="btn btn-primary m-2"
+            onClick={[Function]}
+          >
+            + 
+            4
+          </button>
+          <button
+            className="btn btn-primary m-2"
+            onClick={[Function]}
+          >
+            + 
+            5
+          </button>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          useReducer
+        </h1>
+        <div>
+          <div>
+            <form
+              onSubmit={[Function]}
+            >
+              <input
+                className="form-control"
+                name="title"
+                onChange={[Function]}
+                placeholder="to do"
+                type="text"
+                value=""
+              />
+            </form>
+          </div>
+          <div>
+            <ul
+              className="mt-4 list-group list-group-flush"
+            >
+              <li
+                className="list-group-item"
+              >
+                <p
+                  className=""
+                  onClick={[Function]}
+                >
+                  Learn JS
+                </p>
+                <button
+                  className="btn btn-danger"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section>
+        <h1>
+          Context
+        </h1>
+        <header>
+          <nav>
+            <ul>
+              <a
+                aria-current="page"
+                className="active"
+                href="/"
+                onClick={[Function]}
+              >
+                <li>
+                  Home
+                </li>
+              </a>
+              <a
+                className=""
+                href="/login"
+                onClick={[Function]}
+              >
+                <li>
+                  Login
+                </li>
+              </a>
+              <a
+                className=""
+                href="/about"
+                onClick={[Function]}
+              >
+                <li>
+                  About
+                </li>
+              </a>
+            </ul>
+          </nav>
+        </header>
+        <div>
+          <h1>
+            Home Page
+          </h1>
+          <hr />
+          <pre>
+            {
+   "email": "",
+   "password": ""
+}
+          </pre>
+        </div>
+      </section>
+    </div>
+  </main>,
+]
+`;

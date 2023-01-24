@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in GifGrid.test.tsx file Must render the component <GifGrid /> correctly - without gifs 1`] = `
+<div
+  style={
+    Object {
+      "margin": "4em 0",
+      "outline": "1px solid #0D161B",
+      "padding": "2em",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "1em",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "color": "#ccc",
+          "fontFamily": "monospace",
+          "fontSize": "2em",
+          "margin": 0,
+        }
+      }
+    >
+      Loading
+    </p>
+    <span
+      className="loader"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tests in GifGrid.test.tsx file Must render the component <GifGrid /> correctly with gifs - useFetcgGif 1`] = `
+<div
+  style={
+    Object {
+      "margin": "4em 0",
+      "outline": "1px solid #0D161B",
+      "padding": "2em",
+      "position": "relative",
+    }
+  }
+>
+  <h1
+    style={
+      Object {
+        "color": "#ccc",
+        "fontFamily": "monospace",
+        "left": "50%",
+        "margin": "0",
+        "position": "absolute",
+        "textTransform": "uppercase",
+        "top": "0",
+        "transform": "translate(-50%,-50%)",
+      }
+    }
+  >
+    the beatles
+  </h1>
+  <div>
+    <GiftItem
+      id="A"
+      key="A"
+      title="A - By DJ Amuro"
+      url="http://localhost/gif/a.gif"
+    />
+    <GiftItem
+      id="AA"
+      key="AA"
+      title="AA - By DJ Amuro"
+      url="http://localhost/gif/aa.gif"
+    />
+    <GiftItem
+      id="AAA"
+      key="AAA"
+      title="AAA - By DJ Amuro"
+      url="http://localhost/gif/aaa.gif"
+    />
+  </div>
+</div>
+`;

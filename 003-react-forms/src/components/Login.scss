@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+.login{
+  width: min(90%,500px);
+  border: 1px solid rgba(204, 204, 204, 0.342);
+  margin: 2em auto;
+  padding: 1em;
+  &-content,&__control{
+    display: flex;
+    flex-direction: column;
+  }
+  &-content{
+    gap: 0.8em;
+  }
+  &__control{
+    gap: 0.2em;
+    font-size: 1.2em;
+    color: darken(#ccc,40%);
+  }
+  &__input,&__action{
+    border: none;
+    outline: none;
+  }
+  &__action{
+    background-color: #1292EE;
+    cursor: pointer;
+    padding: 0.8em 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  &__input{
+    padding: 1em;
+    border: 1px solid rgba(204, 204, 204, 0.212);
+    color: darken(#ccc,30%);
+    font-size: 1em;
+    &::placeholder{
+      color: darken(#ccc,20%);
+    }
+  }
+}
+
+.error{
+  color: lighten($color:rgba(255, 0, 0, 0.89), $amount: 10%);
+  span {
+    animation: show-error 0.3s forwards;
+    font-size: 0.8em;
+  }
+}
+
+@keyframes show-error {
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in AddCategory.test.tsx file Must render the component <AddCategory /> correctly 1`] = `
+<form
+  className="l-container"
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Look for what you want, USA, Marines, etc"
+    type="text"
+    value=""
+  />
+</form>
+`;
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\004-gift-app\\src\\tests\\components\\AddCategory.test.tsx file Must render the component <AddCategory /> correctly 1`] = `
+<form
+  className="l-container"
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Look for what you want, USA, Marines, etc"
+    type="text"
+    value=""
+  />
+</form>
+`;

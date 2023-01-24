@@ -1,0 +1,16 @@
+// https://platzi.com/tutoriales/1244-sass/7608-por-que-use-es-mejor-que-import/
+
+@use "./tools/functions" as *;
+@use "./settings/vars" as *;
+@use "./tools/mixins" as *;
+
+
+@use "./generic/base" as *;
+@use "./generic/normalize" as *;
+
+
+@use "./components/header" as *;
+@use "./components/main" as *;
+
+
+@use "./layout/layout" as *;

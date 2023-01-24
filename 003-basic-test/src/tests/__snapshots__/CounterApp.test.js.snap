@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\003-basic-test\\src\\tests\\CounterApp.test.js file - reuse Must return component <CounterApp /> with value 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="value"
+    >
+      5
+    </div>
+    <div
+      className="actions"
+    >
+      <button
+        onClick={[Function]}
+      >
+        +1
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        Reset
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        -1
+      </button>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\003-basic-test\\src\\tests\\CounterApp.test.js file Must return component <CounterApp /> with default value 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="value"
+    >
+      1
+    </div>
+    <div
+      className="actions"
+    >
+      <button
+        onClick={[Function]}
+      >
+        +1
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        Reset
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        -1
+      </button>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\003-basic-test\\src\\tests\\CounterApp.test.js file Must return component <CounterApp /> with value = 5 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="value"
+    >
+      5
+    </div>
+    <div
+      className="actions"
+    >
+      <button
+        onClick={[Function]}
+      >
+        +1
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        Reset
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        -1
+      </button>
+    </div>
+  </header>
+</div>
+`;

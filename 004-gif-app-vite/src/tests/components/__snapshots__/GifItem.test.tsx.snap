@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <GifItem /> component Should evalute the snapshot 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ dRAxHT item"
+  >
+    <img
+      alt="The Beatles"
+      src="https://media4.giphy.com/media/3oz8xVPdsiFn9F6s4o/giphy-downsized-medium.gif?cid=ce089fd5s5378q9iobbz6jjrj8bl5y5f4fqdxpcx8152o8oq&rid=giphy-downsized-medium.gif&ct=g"
+      style="width: 100%; height: 100%; object-fit: cover;"
+    />
+    <h2>
+      The Beatles
+    </h2>
+  </div>
+</div>
+`;

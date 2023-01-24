@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in C:\\Users\\ThomMR\\Desktop\\Learning-React-2022\\004-gift-app\\src\\tests\\components\\GifItem.test.tsx file Must return component <GifItem /> correctly 1`] = `
+<div
+  className="item"
+>
+  <img
+    alt="Peru"
+    onLoad={[Function]}
+    src="https://media4.giphy.com/media/l3UceJ4tB12SgFfwc/giphy.gif?c…089fd5n6lchf6g1qiw7irbc9802uiy74nsqucnx4kol0z3&rid=giphy.gif"
+    style={
+      Object {
+        "height": "100%",
+        "objectFit": "cover",
+        "width": "100%",
+      }
+    }
+  />
+  <h2>
+    Peru
+  </h2>
+</div>
+`;

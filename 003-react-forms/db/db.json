@@ -1,0 +1,14 @@
+{
+  "leads": [
+    {
+      "fullname": "Thom",
+      "email": "thom@gmail.com",
+      "age": "24",
+      "ranking": "60",
+      "obs": "asdasdasd",
+      "country": "PE",
+      "active": true,
+      "id": 1
+    }
+  ]
+}
